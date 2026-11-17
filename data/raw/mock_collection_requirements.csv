@@ -1,0 +1,11 @@
+CR_ID,Target_ID,Target_Name,Coordinate_Raw,Priority_Code,Required_INT,LTIOV_UTC,Raw_Operator_Remarks
+CR-2026-001,TGT-ALPHA-01,SAM Garrison North,"34.5512, -117.8821",PRI-1,GEOINT,2026-10-30T06:00:00Z,REQ: SAR stripmap 0.5m NIIRS 6 min; wx independent all-weather collect.
+CR-2026-002,TGT-ALPHA-01,SAM Garrison N (Dup),"34°33'04.3""N 117°52'55.6""W",1,GEOINT,2026-10-30T06:00:00Z,Duplicate entry from JTF sub-unit; REQ: SAR moving target indicator.
+CR-2026-003,TGT-BRAVO-02,Mobile C2 Relay Node,"34°45'18.0""N 117°31'12.0""W",PRIORITY 1,SIGINT,2026-10-30T04:00:00Z,CRITICAL: ELINT/COMINT emitter geolocation required prior to H-Hour. Sensor: SIGINT.
+CR-2026-004,TGT-CHARLIE-03,Logistics Depot Railhead,11S NV 45200 18300,PRI-2,GEOINT,2026-10-30T12:00:00Z,Day/Night EO/IR FMV dwell 30 min; confirm BDA and railcar loading.
+CR-2026-005,TGT-DELTA-04,Mountain Tunnel Entrance,11S NV 61800 39400,PRI-1,MASINT/GEOINT,2026-10-30T08:00:00Z,REQ: High-density LiDAR foliage penetration & elevation model.
+CR-2026-006,TGT-ECHO-05,Coastal Radar Site,"  34.2105 , -118.1044  ",3,SIGINT,2026-10-30T18:00:00Z,Routine electronic order of battle (EOB) maintenance collect; SIGINT.
+CR-2026-007,TGT-FOXTROT-06,Forward FARP Pad,"34°18'50.4""N 117°15'21.6""W",PRI-1,GEOINT,2026-10-30T05:00:00Z,Urgent EO/IR pre-strike verification of rotary-wing dispersal.
+CR-2026-008,TGT-CORRUPT-99,Unknown Bunker,"999.9999, -295.0000",PRI-2,GEOINT,2026-10-30T10:00:00Z,Corrupt coordinate feed from legacy tactical terminal; EO/IR.
+CR-2026-009,TGT-GOLF-07,Mobile Ballistic TEL Hide,11S NV 78100 51200,PRI-1,GEOINT,2026-10-30T03:30:00Z,Time-Sensitive Target (TST); requires SAR / GMTI wide-area search.
+CR-2026-010,TGT-HOTEL-08,Abandoned Airfield Strip,"34.8910, -117.4020",PRI-3,GEOINT,2026-10-30T22:00:00Z,Routine weekly change detection; EO/IR.

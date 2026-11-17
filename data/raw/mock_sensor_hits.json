@@ -1,0 +1,52 @@
+[
+    {
+        "hit_id": "PED-9001",
+        "sortie_id": "SRT-101",
+        "target_id": "TGT-ALPHA-01",
+        "sensor_payload": "SAR_STRIPMAP",
+        "acq_timestamp_utc": "2026-10-29T23:02:10Z",
+        "ped_dissem_timestamp_utc": "2026-10-29T23:08:45Z",
+        "niirs_or_quality": 6.2,
+        "collection_remarks": "COLLECTED: Clear SAR return on TEL garages; 4 vehicles detected."
+    },
+    {
+        "hit_id": "PED-9002",
+        "sortie_id": "SRT-102",
+        "target_id": "TGT-CHARLIE-03",
+        "sensor_payload": "EO_IR_FMV",
+        "acq_timestamp_utc": "2026-10-29T23:35:00Z",
+        "ped_dissem_timestamp_utc": "2026-10-29T23:39:10Z",
+        "niirs_or_quality": 5.8,
+        "collection_remarks": "COLLECTED: IR tracks thermal signatures on locomotive."
+    },
+    {
+        "hit_id": "PED-9003",
+        "sortie_id": "SRT-104",
+        "target_id": "TGT-ECHO-05",
+        "sensor_payload": "HIGH_BAND_SIGINT",
+        "acq_timestamp_utc": "2026-10-29T22:18:00Z",
+        "ped_dissem_timestamp_utc": null,
+        "niirs_or_quality": 8.0,
+        "collection_remarks": "COLLECTED: S-Band acquisition radar PRF logged; LOB +/- 1.2 deg."
+    },
+    {
+        "hit_id": "PED-9004",
+        "sortie_id": "SRT-105",
+        "target_id": "TGT-FOXTROT-06",
+        "sensor_payload": "EO_IR_FMV",
+        "acq_timestamp_utc": "2026-10-29T21:05:00Z",
+        "ped_dissem_timestamp_utc": "2026-10-29T22:55:00Z",
+        "niirs_or_quality": 2.1,
+        "collection_remarks": "DEGRADED: 85% cloud deck obscuration; partial perimeter visible only."
+    },
+    {
+        "hit_id": "PED-9005",
+        "sortie_id": "SRT-106",
+        "target_id": "TGT-HOTEL-08",
+        "sensor_payload": "EO_IR_FMV",
+        "acq_timestamp_utc": "2026-10-29T20:04:00Z",
+        "ped_dissem_timestamp_utc": "2026-10-29T20:06:30Z",
+        "niirs_or_quality": 7.1,
+        "collection_remarks": "COLLECTED: Runway clear, no activity."
+    }
+]
