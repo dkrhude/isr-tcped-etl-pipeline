@@ -3,6 +3,7 @@
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![SQLite3](https://img.shields.io/badge/Database-SQLite3-lightgrey.svg)
 ![Geospatial](https://img.shields.io/badge/GIS-OGC%20KML%202.2%20%7C%20WGS84-green.svg)
+![Excel VBA](https://img.shields.io/badge/Excel_VBA-J2_Briefing_Automation-217346.svg)
 ![Classification](https://img.shields.io/badge/Classification-100%25%20UNCLASSIFIED%20%2F%20SYNTHETIC-brightgreen.svg)
 
 ## Overview
@@ -68,3 +69,12 @@ Modeled conceptually on the data structures and interoperability challenges enco
 |  - arcgis_tableau_tcped_export.csv (ArcGIS Portal / Tableau Ready)      |
 |  - theater_isr_collection_gaps.kml (3D Extruded KML 2.2 Polygons)       |
 +-------------------------------------------------------------------------+
+
+---
+
+## Automated J2 Executive Excel Briefing (`vba/J2_TCPED_Briefing_Generator.bas`)
+To support staff briefing workflows on locked-down workstations without ActiveX (`Scripting.Dictionary`) dependencies, this repository includes a pure-VBA module:
+1. Open a blank **Microsoft Excel** workbook and press **Alt + F11** to launch the Visual Basic Editor.
+2. Click **File -> Import File...** and select `vba/J2_TCPED_Briefing_Generator.bas`.
+3. Return to Excel, press **Alt + F8**, select **`GenerateJ2BriefingDeck`**, and click **Run** (select `data/processed/arcgis_tableau_tcped_export.csv` if prompted).
+4. The macro builds two formatted tabs—**`J2_Executive_Brief`** (KPI summary cards, Multi-INT fulfillment rollup, embedded clustered column chart, and Priority Tier 1/2 Action Deck) and **`Normalized_TCPED_Deck`** (`ListObject` table with status highlighting).
